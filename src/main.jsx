@@ -6,7 +6,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <MyComponent
-      title={"My App"}
+      title={"My Application"}
       description={ "My component's description." }
     />
   </React.StrictMode>,
