@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #1f5014;
+  background-color: #162313;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -117,7 +117,7 @@ input[type=text] {
   height: 1.5rem;
   padding: 0.5rem;
   padding-left: 2rem;
-  background-color: green;
+  background-color: rgb(51, 109, 51);
   border-radius: 40px;
 }
 
@@ -127,22 +127,23 @@ input[type=email] {
   height: 1.5rem;
   padding: 0.5rem;
   padding-left: 2rem;
-  background-color: green;
+  background-color: rgb(51, 109, 51);
   border-radius: 40px;
 }
 
 #submitButton {
-  background-color: green;
+  background-color: rgb(37, 80, 37);
   border-color: gray;
   border-radius: 20px;
   margin: 1rem;
   height: 2.5rem;
   width: 7rem;
   font-weight: bold;
+  -webkit-text-fill-color: goldenrod;
 }
 
 #submitButton:hover {
-  background-color: lime;
+  background-color: gold;
   color: #1a1a1a;
   border-color: gray;
   border-radius: 20px;
@@ -150,4 +151,5 @@ input[type=email] {
   height: 2.5rem;
   width: 7rem;
   font-weight: bold;
+  -webkit-text-fill-color: black;
 }
