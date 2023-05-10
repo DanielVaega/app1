@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -32,15 +36,16 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 0.5;
+  font-size: 3.7em;
+  font-weight: bolder;
+  line-height: 1.5;
   margin-left: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 h4 {
-  font-size: 1.0em;
-  line-height: 0.5;
+  font-size: 1.1em;
+  line-height: 1.5;
   margin-left: 40px;
   color: goldenrod;
 }
@@ -107,7 +112,7 @@ button:focus-visible {
 .sign-in {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.0em;
-  font-weight: bold;
+  font-weight: 900;
   margin-left: 2.5em;
 }
 
@@ -116,7 +121,8 @@ input[type=text] {
   width: 25rem;
   height: 1.5rem;
   padding: 0.5rem;
-  padding-left: 2rem;
+  padding-left: 2.0rem;
+  margin-bottom: 2.0rem;
   background-color: rgb(51, 109, 51);
   border-radius: 40px;
 }
@@ -126,7 +132,8 @@ input[type=email] {
   width: 25rem;
   height: 1.5rem;
   padding: 0.5rem;
-  padding-left: 2rem;
+  padding-left: 2.0rem;
+  margin-bottom: 2.0rem;
   background-color: rgb(51, 109, 51);
   border-radius: 40px;
 }
