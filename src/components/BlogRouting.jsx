@@ -1,6 +1,6 @@
 import { 
     MyComponent,
-    BlogComponent,
+    //BlogComponent,
     OneBlogComponent,
     NavigationComponent,
     DataCollector,
@@ -29,7 +29,9 @@ export const BlogRouting = () => {
         of our Lord? Thankfully for you, WE have the answers,
         and through the digestion of this brief, you will too.`,
         subtitle1: "1 --> The Question ___________  ( ' How Hard Is A Trick ? ' )",
-        content1: "To answer the question . . . {(unlock entire handbook - - >)}"
+        content1: "To answer the question . . . ",
+        loginlink: "{(Log in to unlock the full page! - - >)}"
+        // "http://127.0.0.1:5175/login",
     }
     return (
         <>
@@ -40,10 +42,10 @@ export const BlogRouting = () => {
                     element={<MyComponent {...data}/>}
                 />
                 
-                <Route
+                {/*<Route
                     path="/blogs"
                     element={<BlogComponent/>}
-                />
+                />*/}
                 
                 <Route
                     path=":id"
